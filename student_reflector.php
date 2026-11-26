@@ -22,6 +22,11 @@ include_once 'validate.php';
     } else {
         echo "<p>No valid submission received.</p>";
     }
+
+    include("db_config.php");
+    // echo '<meta http-equiv="refresh" content="10;url=http://localhost/test/view_students.php">';
+
+    
    // echo '<meta http-equiv="refresh" content="10;url=http://--index.php">';
     ?>
 
